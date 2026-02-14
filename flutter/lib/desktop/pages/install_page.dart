@@ -81,6 +81,10 @@ class _InstallPageBodyState extends State<_InstallPageBody>
     startmenu.value = installOptions['STARTMENUSHORTCUTS'] != '0';
     desktopicon.value = installOptions['DESKTOPSHORTCUTS'] != '0';
     printer.value = installOptions['PRINTER'] != '0';
+
+    startmenu.value = false;
+    desktopicon.value = false;
+    printer.value = false;
   }
 
   @override
